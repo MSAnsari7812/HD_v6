@@ -1,0 +1,106 @@
+﻿
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.PopUp {
+    display: none;
+    background-color: #C0C4CC;
+    border-width: 1px;
+    border-color: #606060;
+    border-style: solid;
+    padding: 20px;
+}
+ .RedColor {
+        color:red;
+        }
+  th,td{
+            text-align:center;
+
+        }
+   #UserDB a{
+            display:block;
+            width:100%;
+            margin:10px;
+            padding:10px;
+            height:50px;
+            font-stretch:extra-expanded;
+            font-size:larger;
+          
+        }
+ 
+  .ReqOpen {
+        width:10%;
+        /*display:block;*/
+        color:white;
+  
+        padding:2px;
+         /*border: 2px solid red;
+       border-radius:5px 6px;*/
+     background-color: #2eb82e;
+     font-variant-caps:all-petite-caps;
+     
+  
+     
+        }
+        .ReqClose {
+        width:10%;
+        /*display:block;*/
+        color:white;
+         background-color:red;
+     
+        padding:2px;
+         font-variant-caps:all-petite-caps;
+        
+        
+     
+        }
+           .ReqPending {
+        width:10%;
+        /*display:block;*/
+        color:white;
+        background-color:#ff6600;
+     
+        padding:2px;
+        font-variant-caps:all-petite-caps;
+        
+     
+        }
+          .table th{
+ text-align:center;
+           vertical-align:middle;
+           }
+             thead{
+           background-color:brown;
+           color:white;
+           text-align:center;
+           vertical-align:middle;
+       }
+       #hdtab thead{
+ background-color:cornflowerblue;
+           color:white;
+           text-align:center;
+           vertical-align:middle;
+       }
+       #hdboxsmall{
+           
+           font-size:12px;
+              width:50%;
+           margin-left:auto;
+           margin-right:auto;
+       }
+       #hdboxsmall .btn{
+           padding:2px;
+           margin:2px;
+           font-size:12px;
+        font-weight:700;
+       }
+       .bodyclass
+       {   height:600px;
+           min-height:600px;
+          position:fixed;
+
+           overflow:auto;
+       }

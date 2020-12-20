@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/CallManagementSystem.master" AutoEventWireup="true" CodeFile="Helpdesk.master.cs" Inherits="AccountMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../bs/CSS/SideBarNav.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   <style>
+        /*#UserDB a{
+            display:block;
+            width:100%;
+            margin:10px;
+            padding:10px;
+            height:50px;
+            font-stretch:extra-expanded;
+            font-size:larger;
+          
+        }*/
+      
+    </style>
+    <!-- content -->
+   <%--  <nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">CMS-NADT</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="../Admin/Dashboard.aspx">Home </a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="../Admin/ViewRequest.aspx">View Request</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="../Admin/UserManagement.aspx">User Management</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="../LogOut.aspx">LogOut</a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>--%>
+    <div class="container-fluid p-1">
+   
+  <div  class="row">
+        <div class="col-lg-2">
+           
+<div class="nav-side-menu">
+    <div class="brand"><span class="text-capitalize text-center font-weight-bold">Help Desk</span></div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+           <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="../CP/Dashboard.aspx">
+                  <i class="fa fa-user fa-lg"></i> Account
+                  </a>
+                </li>
+                  <li data-toggle="collapse" data-target="#RequestManagement" class="collapsed">
+                  <a href="#">   <i class="fa fa-envelope fa-lg"></i>Request Management <span class="arrow"></span></a>
+                </li>  
+                <ul class="sub-menu collapse" id="RequestManagement">
+                  <li><a href="../Helpdesk/NewRequest.aspx">New</a></li>
+                      <li><a href="../Helpdesk/ViewRequest.aspx">View</a></li>
+                     
+              
+                </ul>
+              
+                <li>
+                  <a href="../Helpdesk/InventoryNewEdit.aspx"> 
+                      <i class="fa fa-desktop fa-lg"></i>
+                      Inventory Management </a>
+                </li>  
+                  <li data-toggle="collapse" data-target="#Reports" class="collapsed">
+                  <a href="#">   <i class="fa  fa-file-pdf-o fa-lg"></i>Report Managment <span class="arrow"></span></a>
+                </li>  
+                <ul class="sub-menu collapse" id="Reports">
+                  <li><a href="../Reports/rptComplainFormViewer.aspx">Complaint form</a></li>
+                      <li><a href="../Reports/rptAdvanceReportViwer.aspx">Advance Report</a></li>
+                       <li><a href="../Reports/rptInventoryReportViwer.aspx">Inventory Report</a></li>
+              
+                </ul>
+
+                       
+            
+                <li>
+                  <a href="../HelpDesk/SettingPage.aspx">
+                  <i class="fa fa-wrench fa-lg"></i>Tools
+                  </a>
+                  </li>
+                   <li>
+                  <a href="../CP/ChangePassword.aspx">
+                  <i class="fa fa-key fa-lg"></i> Change Password
+                  </a>
+                </li>
+               <li>
+           
+                       <a href="../LogOut.aspx">
+                  <i class="fa fa-power-off fa-lg"></i> Logout
+                  </a>
+                </li>
+        
+
+               
+            </ul>
+     </div>
+</div>
+            </div>
+        <div class="col-lg-10 p1">
+   
+          <asp:ContentPlaceHolder ID="AccountContentPlaceHolder" runat="server">
+
+          </asp:ContentPlaceHolder>
+  </div>
+      </div>
+      </div>
+        
+</asp:Content>
+

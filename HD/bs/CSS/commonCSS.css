@@ -1,0 +1,408 @@
+﻿body {
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+#box-wrapper
+{
+    background-image:url(Image/back1.jpg);
+    
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:640px;
+   
+
+}
+
+#google_translate_element {
+  color: transparent;
+}
+#google_translate_element a {
+  display: none;
+}
+
+div.goog-te-gadget {
+  color: transparent !important;
+}
+
+select
+{
+color:black;
+
+}
+#google_translate_element img
+        {
+            display: none !important;
+        }
+
+
+
+.fant
+{
+    background-color:white;
+    opacity: 0.85;
+}
+.up-arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;   
+    border-bottom: 10px solid #117300;
+}
+.gridviewpagernumberspace
+{
+    padding:4px;
+
+}
+.down-arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #006699;
+}
+.left-arrow {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;  
+    border-right: 25px solid #117300; 
+}
+.right-arrow {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;  
+    border-left: 20px solid #006699;
+}
+ul
+{
+    display: block;
+    list-style: square url('Image/rightarrow1.PNG');
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px; /*list-style-image: url('Image\rightarrow1.png');*/
+}
+
+.griddel
+{
+    background-color: #FF0000;
+    color: #FFFF00;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman' , Times, serif;
+}
+
+.gridcol100
+{
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+.gridcol150
+{
+    width: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+.shadow
+{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 2px 0px;
+    font-family: Calibri;
+    font-size: x-large;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0099CC;
+}
+.eventtitlewhite
+{
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #993333;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+ .eventtitle
+{
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #336699;
+}
+img
+{
+    margin: 5px;
+    width: 189px;
+}
+
+  .newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+}
+  .blinker2color {
+    border-style: none;
+    border-width: thin;
+    -webkit-animation-name: example2c; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example2c;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+    display: block;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2c {
+    from { color: #000066;}
+    to {color:red;
+   
+}
+}
+
+/* Standard syntax */
+@keyframes example2c {
+    from { color: #000066;}
+    to {color:red;
+   
+}
+}
+
+
+.blinker {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    letter-spacing: 0.3em;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   0%   {color:#ff0000;}
+    25%  {color: #CCFF66;}
+    50%  {color:#FF9900;}
+    100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+     0%   {color: #ff0000;}
+    25%  {color:#CCFF66; }
+    50%  {color: #FF9900;}
+    100% {color: green;}
+}
+.blinkerShadow {
+    -webkit-animation-name: examplesh; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: examplesh;
+    animation-duration: 4s;
+     animation-iteration-count: infinite;
+ letter-spacing: 0.3em;
+    margin-top: 13px;
+}
+.color
+{
+    color: #000066;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes examplesh {
+   0%   {color:#000066;}
+    25%  {color: #FFFFFF;}
+    50%  {color:#666666;}
+    100% {color: #FF0000;}
+}
+
+/* Standard syntax */
+@keyframes examplesh {
+    0%   {color:#003366;}
+    25%  {color:#C93030;}
+    50%  {color:#F9AA06;}
+    100% {color:#FF6600}
+}
+
+.roundtextcombo
+{
+    border: thin groove #0099CC;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #0099CC;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.roundobj
+{
+    border: thick solid #333333;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #888888;
+    width: 170px;
+    height: 100px;
+}
+
+	#divcon
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    margin-bottom: 10px;
+}
+
+    .pagination-ys {
+    /*display: inline-block;*/
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.pagination-ys table > tbody > tr > td {
+    display: inline;
+}
+
+.pagination-ys table > tbody > tr > td > a,
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #dd4814;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;    
+    margin-left: -1px;
+    z-index: 2;
+    color: #aea79f;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+    cursor: default;
+}
+
+.pagination-ys table > tbody > tr > td:first-child > a,
+.pagination-ys table > tbody > tr > td:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.pagination-ys table > tbody > tr > td:last-child > a,
+.pagination-ys table > tbody > tr > td:last-child > span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.pagination-ys table > tbody > tr > td > a:hover,
+.pagination-ys table > tbody > tr > td > span:hover,
+.pagination-ys table > tbody > tr > td > a:focus,
+.pagination-ys table > tbody > tr > td > span:focus {
+    color: #97310e;
+    background-color: #eeeeee;
+    border-color: #dddddd;
+}
+
+.bgimage
+{
+    background-image: url('Images/Convocation/P2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.divopacity
+{
+    background-color: white;
+    opacity:0.8;
+    border-radius:3px 4px;
+}
+
+.textbox
+{
+background-color:white;
+color:gray;
+font-size:medium;
+font-weight:700;
+width:100%;
+}
+
+.zeromp
+{
+margin:0px;
+padding:0px;
+}
