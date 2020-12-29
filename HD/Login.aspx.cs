@@ -28,7 +28,7 @@ public partial class Login : System.Web.UI.Page
             {
                 mc.ShowPopUpMsgM(this, "Your subscription has expired.");
             }
-            else if (lc.status == "success")
+            else if (lc.status.ToLower() == "success")
             {
                 Session["info"] = lc;
                 if (lc.role.Contains("Admin"))
